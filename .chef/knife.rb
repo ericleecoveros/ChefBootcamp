@@ -7,3 +7,5 @@ node_name                "ericlee"
 client_key               "#{current_dir}/ericlee.pem"
 chef_server_url          "https://172.31.2.109/organizations/coveros"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+# Amazon AWS
+knife[:aws_credential_file] = "/home/centos/aws.txt"
